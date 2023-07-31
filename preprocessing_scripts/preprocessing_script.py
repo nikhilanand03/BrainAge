@@ -13,7 +13,7 @@ for i in range(1,151):
     else:
         idx = '0'+str(i)
         
-    # setting brainvisaion file name and reading into raw
+    # setting brainvision file name and reading into raw
     fname = "/space_lin1/quanta/sub-" + idx + "/eeg/sub-" + idx + "_ses-01_task-rest.vhdr"
     fname_alt = "/space_lin1/quanta/sub-" + idx + "/eeg/sub-" + idx + "_ses-01_resting.vhdr"
     #fname = 'subjects/sub-0334/raw/sub-0334_ses-01_task-rest.vhdr'
